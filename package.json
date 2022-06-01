@@ -1,0 +1,33 @@
+{
+  "name": "surf-punks-api",
+  "version": "1.0.0",
+  "description": "Surf Punks Api",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "node test.js"
+  },
+  "eslintConfig": {
+    "rules": {
+      "object-curly-newline: true": true,
+      "lines-between-class-members": 1
+    }
+  },
+  "author": "Ty Fischer + Nate Stemo",
+  "license": "MIT",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "ejs": "^2.6.1",
+    "express": "^4.16.4",
+    "fs": "^0.0.1-security",
+    "moment": "^2.22.2",
+    "papaparse": "^5.3.1"
+  },
+  "devDependencies": {
+    "request": "^2.81.0",
+    "tape": "^4.7.0"
+  },
+  "engines": {
+    "node": "8.11.2"
+  }
+}
